@@ -1,0 +1,11 @@
+[package]
+name = "exam-practise"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.41.0", features = ["full"] }
+rand = "0.8.5"
+axum = "0.7.7"
+tower-http = { version = "0.6.1", features = ["cors"] }
+serde = { version = "1.0", features = ["derive"] }
